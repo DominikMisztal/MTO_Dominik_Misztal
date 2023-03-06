@@ -3,3 +3,8 @@ wieksza dlugosc niz dlugosc stringu KROTKI
 krotsza dlugosc niz dlugosc stringu DL
 tekst mieszany AlibAbA
 AaAaAAaaAa
+pusty |
+pelny DWANAS|
+kROKODYL
+ALIg
+to jest tekst testowy do TEstoWAnia

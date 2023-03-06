@@ -8,3 +8,13 @@ tekst mieszany #.10k
 aLIBaBa
 #.10k
 aAaAaaAAaAAaAA
+pusty #.0k|
+tekst
+pelny #.6k|
+dwanas
+#.10k
+Krokodyl
+#.4k
+aliGaTOR
+to jest tekst testowy do #.10k
+teSTOwaNIA

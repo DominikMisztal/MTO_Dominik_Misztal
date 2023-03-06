@@ -6,12 +6,12 @@ def get_num(string_nums):
     x = 0
     count = 0
     if(string_nums[x] not in ['1', '2', '3', '4', '5', '6', '7', '8', '9']):
-        return -1
+        return -1, count+1
     while string_nums[x] in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']:
         count += 1
         x += 1
     if string_nums[x] != 'k':
-        return -2
+        return -2, count
     power = pow(10, count-1)
     x = 0
     string_len = 0
@@ -29,8 +29,9 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == '.':
                 str_len, count = get_num(format_string[idx+2:])
-                #print(str_len)
-                print(param[:int(str_len)].swapcase(),end="")
+                str_len = int(str_len)
+                if str_len > 0:
+                    print(param[:int(str_len)].swapcase(),end="")
                 shouldDo=False
                 print(format_string[idx + 3 + count:],end="")
                 break
