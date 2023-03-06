@@ -1,1 +1,5 @@
 5 liter ABECA
+wieksza dlugosc niz dlugosc stringu KROTKI
+krotsza dlugosc niz dlugosc stringu DL
+tekst mieszany AlibAbA
+AaAaAAaaAa
