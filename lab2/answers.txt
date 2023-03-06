@@ -1,1 +1,2 @@
 test pierwszy 5 liter ABECA|
+wieksza dlugosc niz dlugosc stringu kRoKoDyL
