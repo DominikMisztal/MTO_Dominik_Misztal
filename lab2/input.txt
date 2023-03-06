@@ -1,4 +1,4 @@
-test pierwszy 5 liter #.5k|
+test pierwszy 5 liter #.5k
 abecadlo
 wieksza dlugosc niz dlugosc stringu #.222k
 KrOkOdYl
