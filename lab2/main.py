@@ -29,6 +29,7 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == '.':
                 str_len, count = get_num(format_string[idx+2:])
+                #print(str_len)
                 print(param[:int(str_len)].swapcase(),end="")
                 shouldDo=False
                 print(format_string[idx + 3 + count:],end="")
