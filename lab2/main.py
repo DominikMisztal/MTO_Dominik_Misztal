@@ -18,6 +18,7 @@ def get_num(string_nums):
     while string_nums[x] in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']:
         string_len += power * int(string_nums[x])
         power = power/10
+        x+=1
     return string_len
     
 
