@@ -32,6 +32,7 @@ def my_printf(format_string,param):
                 print(param[:str_len].swapcase(),end="")
                 shouldDo=False
                 print(format_string[idx + 3 + count:],end="")
+                break
             else:
                 print(format_string[idx],end="")
         else:
