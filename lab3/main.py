@@ -28,9 +28,7 @@ def my_printf(format_string,param):
                     minInt = int(min)
                     if minInt != 0 and min[0] == '0':
                         break
-                    length = len(output)
-                    if minInt > length:
-                        output = output.rjust(minInt - length)
+                    output = output.rjust(minInt)
                 
                 print(output, end='')
 
