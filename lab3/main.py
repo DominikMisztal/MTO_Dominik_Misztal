@@ -9,7 +9,12 @@ def my_printf(format_string,param):
     regex = r'#(\d+)?(\.)?(\d+)?k'
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
+            if format_string[idx] == '#':
+                result = re.search(regex, format_string[idx:])
+                min = result.group(1)
+                dot = result.group(2)
+                max = result.group(3)
+                
                 print(param,end="")
                 shouldDo=False
             else:
