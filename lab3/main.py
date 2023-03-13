@@ -18,29 +18,21 @@ def my_printf(format_string,param):
                     break;
                 if not dot and max:
                     break;
+                output = param
+                if max:
+                    maxInt = int(max)
+                    if maxInt != 0 and max[0] == '0':
+                        break
+                    output = output[0:maxInt]
+                if min:
+                    minInt = int(min)
+                    if minInt != 0 and min[0] == '0':
+                        break
+                    length = len(output)
+                    if minInt > length:
+                        output = output.rjust(minInt - length)
                 
-                if not min and not dot and not max:
-                    print(param, end='')
-                elif not min and dot and max:
-                    maxInt = int(max)
-                    if maxInt  != 0 and max[0] == '0':
-                        break
-                    print(f'{param:.{maxInt}}', end='')
-
-                elif min and not dot and not max:
-                    minInt = int(min)
-                    if minInt != 0 and min[0] == '0':
-                        break
-                    print(f'{param:{minInt}}', end='')
-
-                elif min and dot and max:
-                    minInt = int(min)
-                    if minInt != 0 and min[0] == '0':
-                        break
-                    maxInt = int(max)
-                    if maxInt  != 0 and max[0] == '0':
-                        break
-                    print(f'{param:{minInt}.{maxInt}}', end='')
+                print(output, end='')
 
 
                 shouldDo=False

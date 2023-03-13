@@ -18,3 +18,6 @@ pelny DWANAS|
 kROKODYL
 ALIg
 to jest tekst testowy do TEstoWAnia
+test laboratorium numer TRZY
+test KOMPATYBILNOSCI wstecznej
+test lab2 i lab3   kOt
