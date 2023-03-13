@@ -16,8 +16,6 @@ def my_printf(format_string,param):
                 max = result.group(3)
                 if not result:
                     break;
-                if min and min[0] == '0':
-                    break;
                 if not dot and max:
                     break;
                 
