@@ -14,8 +14,10 @@ def my_printf(format_string,param):
                 min = result.group(1)
                 dot = result.group(2)
                 max = result.group(3)
-                
-                print(param,end="")
+                if not result:
+                    break;
+                if not min and not dot and not max:
+                    print(param, end='')
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
