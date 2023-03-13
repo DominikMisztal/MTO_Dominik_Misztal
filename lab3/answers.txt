@@ -24,3 +24,7 @@ test lab2 i lab3   kOt
 test jednoznakowego parametru  t
 test dwuznakowego parametru tA
 ala ma           
+Agata ma   DOM
+OGrzEwaNIE jest drogie
+     PUSTY
+brak argumentu

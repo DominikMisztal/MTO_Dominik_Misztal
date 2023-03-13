@@ -50,3 +50,11 @@ test dwuznakowego parametru #2.2k
 Ta
 ala ma #10.0k
 KoTa
+Agata ma #5.100k
+dom
+#.20k jest drogie
+ogRZeWAnie
+#10.10k
+pusty
+brak argumentu
+kotek
