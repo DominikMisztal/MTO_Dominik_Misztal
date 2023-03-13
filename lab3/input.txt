@@ -44,3 +44,9 @@ test #k wstecznej
 kompatybilnosci
 test lab2 i lab3 #5.3k
 KoTeK
+test jednoznakowego parametru #2.2k
+T
+test dwuznakowego parametru #2.2k
+Ta
+ala ma #10.0k
+KoTa
