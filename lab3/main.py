@@ -26,7 +26,23 @@ def my_printf(format_string,param):
                     if maxInt  != 0 and max[0] == '0':
                         break
                     print(f'{param:.{maxInt}}', end='')
-                
+
+                elif min and not dot and not max:
+                    minInt = int(min)
+                    if minInt != 0 and min[0] == '0':
+                        break
+                    print(f'{param:{minInt}}', end='')
+
+                elif min and dot and max:
+                    minInt = int(min)
+                    if minInt != 0 and min[0] == '0':
+                        break
+                    maxInt = int(max)
+                    if maxInt  != 0 and max[0] == '0':
+                        break
+                    print(f'{param:{minInt}.{maxInt}}', end='')
+
+
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
