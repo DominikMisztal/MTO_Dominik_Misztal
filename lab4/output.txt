@@ -1,3 +1,5 @@
 4321
 0001
 test w tekscie 122111 tekst
+czwarty 4
+55 piec

@@ -4,3 +4,7 @@
 1000
 test w tekscie #g tekst
 111221
+czwarty #g
+4
+#g piec
+55
