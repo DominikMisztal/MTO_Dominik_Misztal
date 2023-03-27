@@ -2,3 +2,5 @@
 1234
 #g
 1000
+test w tekscie #g tekst
+111221
