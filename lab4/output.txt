@@ -8,3 +8,4 @@ dluga liczba 987654321
 90901
 te6554321kst
 final 10101010101gg
+bonus test case

@@ -18,3 +18,5 @@ te#gkst
 1234556
 final #ggg
 101010101010
+bonus test case
+123
