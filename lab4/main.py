@@ -11,7 +11,7 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'g':
                 num = str(int(param))
-                num = str(int(num[::-1]))
+                num = int(num[::-1])
                 print(num,end="")
                 shouldDo=False
             else:
