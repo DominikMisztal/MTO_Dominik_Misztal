@@ -8,3 +8,7 @@ czwarty #g
 4
 #g piec
 55
+dluga liczba #g
+1234567890
+#g
+001
