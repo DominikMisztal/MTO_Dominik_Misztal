@@ -25,13 +25,18 @@ def my_printf(format_string,param):
                 result = re.search(regex, format_string[idx:])
                 if not result:
                     break
+                
                 min = result.group(1)
+                if(min[0] == '0'):
+                    fillChar = '0'
+                else: 
+                    fillChar = ' '
                 output = transform(str(int(param)))
                 if min:
                     minInt = int(min)
                     if minInt != 0 and min[0] == '0':
                         break
-                    output = output.rjust(minInt) 
+                    output = output.rjust(minInt, fillChar) 
                 print(output,end="")
                 done = True
                 shouldDo=False
