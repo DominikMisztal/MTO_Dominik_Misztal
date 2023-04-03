@@ -16,23 +16,26 @@ def transform(numberString):
 
 def my_printf(format_string,param):
     shouldDo=True
+    done = False
     regex = r'#(\d+)?g'
 
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#':
-                result = re.search(regex, format_string[idx:])
-                if not result:
-                    break
-                min = result.group(1)
-                output = transform(str(int(param)))
-                if min:
-                    minInt = int(min)
-                    if minInt != 0 and min[0] == '0':
+            if done == False:
+                if format_string[idx] == '#':
+                    result = re.search(regex, format_string[idx:])
+                    if not result:
                         break
-                    output = output.rjust(minInt) 
-                print(output,end="")
-                shouldDo=False
+                    min = result.group(1)
+                    output = transform(str(int(param)))
+                    if min:
+                        minInt = int(min)
+                        if minInt != 0 and min[0] == '0':
+                            break
+                        output = output.rjust(minInt) 
+                    print(output,end="")
+                    done = True
+                    shouldDo=False
 
             else:
                 print(format_string[idx],end="")
