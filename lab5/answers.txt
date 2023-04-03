@@ -5,3 +5,6 @@ to jest test          2 z tekstem
 to jest test bez liczby
 594354
 2345678901098765432
+|                   1|
+| 1|
+
