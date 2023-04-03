@@ -25,6 +25,8 @@ def my_printf(format_string,param):
                 if not result:
                     break;
                 min = result.group(1)
+                output = transform(param)
+                
                 print(param,end="")
                 shouldDo=False
             else:
