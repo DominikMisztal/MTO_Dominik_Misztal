@@ -25,7 +25,7 @@ def my_printf(format_string,param):
                 if not result:
                     break
                 min = result.group(1)
-                output = transform(param)
+                output = transform(str(int(param)))
                 if min:
                     minInt = int(min)
                     if minInt != 0 and min[0] == '0':
