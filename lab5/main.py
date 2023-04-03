@@ -17,6 +17,7 @@ def transform(numberString):
 def my_printf(format_string,param):
     shouldDo=True
     regex = r'#(\d+)?g'
+
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#':
@@ -32,8 +33,10 @@ def my_printf(format_string,param):
                     output = output.rjust(minInt) 
                 print(output,end="")
                 shouldDo=False
+
             else:
                 print(format_string[idx],end="")
+                
         else:
             if(format_string[idx] == 'g'):
                 shouldDo=True
