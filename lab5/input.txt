@@ -4,3 +4,9 @@
 123
 |#6g|
 01367
+to jest test #10g z tekstem
+1
+to jest test bez liczby
+123
+#0g
+483243
