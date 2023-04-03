@@ -3,6 +3,17 @@
 import sys
 import re
 
+def transform(numberString):
+    transformed = []
+    for num in numberString:
+        up = int(num) + 1
+        if(up >= 10):
+            up = 0
+        transformed.append(up)
+    out = ''.join(str(e) for e in transformed)
+    return out
+
+
 def my_printf(format_string,param):
     #print(format_string)
     shouldDo=True
@@ -11,6 +22,9 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#':
                 result = re.search(regex, format_string[idx:])
+                if not result:
+                    break;
+                min = result.group(1)
                 print(param,end="")
                 shouldDo=False
             else:
