@@ -16,3 +16,7 @@ to jest test bez liczby
 0
 |#2g|
 0000000000000
+|#5g|
+43254412523
+te#16gkst
+213
