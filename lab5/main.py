@@ -9,7 +9,8 @@ def my_printf(format_string,param):
     regex = r'#(\d+)?g'
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
+            if format_string[idx] == '#':
+                result = re.search(regex, format_string[idx:])
                 print(param,end="")
                 shouldDo=False
             else:
