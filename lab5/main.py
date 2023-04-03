@@ -23,7 +23,7 @@ def my_printf(format_string,param):
             if format_string[idx] == '#':
                 result = re.search(regex, format_string[idx:])
                 if not result:
-                    break;
+                    break
                 min = result.group(1)
                 output = transform(param)
                 if min:
