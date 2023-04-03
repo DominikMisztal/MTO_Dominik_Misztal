@@ -15,7 +15,6 @@ def transform(numberString):
 
 
 def my_printf(format_string,param):
-    #print(format_string)
     shouldDo=True
     regex = r'#(\d+)?g'
     for idx in range(0,len(format_string)):
