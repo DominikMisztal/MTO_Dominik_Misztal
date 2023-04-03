@@ -26,8 +26,12 @@ def my_printf(format_string,param):
                     break;
                 min = result.group(1)
                 output = transform(param)
-                
-                print(param,end="")
+                if min:
+                    minInt = int(min)
+                    if minInt != 0 and min[0] == '0':
+                        break
+                    output = output.rjust(minInt) 
+                print(output,end="")
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
