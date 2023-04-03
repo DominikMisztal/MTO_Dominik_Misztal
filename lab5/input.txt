@@ -20,3 +20,5 @@ to jest test bez liczby
 43254412523
 te#16gkst
 213
+#5g test z tektstem na koniec
+54321

@@ -1,11 +1,12 @@
 |  123|
-|912|
-|  9256|
-to jest test          9 z tekstem
+|012|
+|  0256|
+to jest test          0 z tekstem
 to jest test bez liczby
 372132
-9123456789876543219
+0123456789876543210
 |                   9|
 | 9|
-|32143391412|
-te             192kst
+|32143301412|
+te             102kst
+43210 test z tektstem na koniec

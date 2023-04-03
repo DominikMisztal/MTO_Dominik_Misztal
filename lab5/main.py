@@ -7,7 +7,7 @@ def transform(numberString):
     transformed = []
     for num in numberString:
         up = int(num) - 1
-        if(up <= 0):
+        if(up < 0):
             up = 9
         transformed.append(up)
     out = ''.join(str(e) for e in transformed)
