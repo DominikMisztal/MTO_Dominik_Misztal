@@ -4,7 +4,12 @@ import sys
 import re
 
 def transform(numberString):
-    return 
+    transformed = []
+    for num in numberString:
+        newNum = ((int(num) * 9) + 1) % 10
+        transformed.append(newNum)
+    out = ''.join(str(e) for e in transformed)
+    return out
 
 
 def my_printf(format_string,param):
