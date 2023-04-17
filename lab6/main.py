@@ -35,8 +35,10 @@ def my_printf(format_string,param):
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
+
         else:
-            shouldDo=True
+            if(format_string[idx] == 'g'):
+                shouldDo=True
     print("")
 
 data=sys.stdin.readlines()
