@@ -25,10 +25,15 @@ def my_printf(format_string,param):
                     break
                 min = result.group(1)
                 fillChar = '0'
+                if(int(param) < 0):
+                    minus = True
+                    param[0] = '0'
                 output = transform(str(int(param)))
                 if min:
                     minInt = int(min)
                     output = output.rjust(minInt, fillChar) 
+                if(minus):
+                    print('-',end="")
                 print(output,end="")
                 done = True
                 done = True
