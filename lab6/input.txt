@@ -12,3 +12,5 @@ to jest tekst #.6g do testowania
 1234567890
 #.12g
 112233445566778899
+#.5g
+-456

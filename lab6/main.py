@@ -20,6 +20,7 @@ def my_printf(format_string,param):
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and done == False:
+                minus = False
                 result = re.search(regex, format_string[idx:])
                 if not result:
                     break
@@ -27,8 +28,9 @@ def my_printf(format_string,param):
                 fillChar = '0'
                 if(int(param) < 0):
                     minus = True
-                    param[0] = '0'
-                output = transform(str(int(param)))
+                    output = transform(str(int(param[1:])))
+                else:
+                    output = transform(str(int(param)))
                 if min:
                     minInt = int(min)
                     output = output.rjust(minInt, fillChar) 
