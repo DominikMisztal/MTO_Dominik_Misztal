@@ -2,3 +2,7 @@
 4378
 #.6g
 123
+|#.1g|
+123567
+to jest tekst #.6g do testowania
+0858329

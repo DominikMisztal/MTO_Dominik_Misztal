@@ -1,2 +1,4 @@
 7843
 000098
+|098654|
+to jest tekst 363892 do testowania
