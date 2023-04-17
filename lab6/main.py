@@ -25,6 +25,12 @@ def my_printf(format_string,param):
                     break
                 min = result.group(1)
                 fillChar = '0'
+                output = transform(str(int(param)))
+                if min:
+                    minInt = int(min)
+                    output = output.rjust(minInt, fillChar) 
+                print(output,end="")
+                done = True
                 done = True
                 shouldDo=False
             else:
