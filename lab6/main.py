@@ -3,6 +3,10 @@
 import sys
 import re
 
+def transform(numberString):
+    return 
+
+
 def my_printf(format_string,param):
     shouldDo=True
     done = False
