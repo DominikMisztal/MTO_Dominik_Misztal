@@ -14,7 +14,8 @@ def my_printf(format_string,param):
                 result = re.search(regex, format_string[idx:])
                 if not result:
                     break
-                
+                min = result.group(1)
+                fillChar = '0'
                 done = True
                 shouldDo=False
             else:
