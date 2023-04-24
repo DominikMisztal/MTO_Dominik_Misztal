@@ -6,3 +6,5 @@ tekst #j testowy
 ABCD
 dlu#jga liczba
 1234567890ABCDEF
+#j 
+09A7B5C3D1
