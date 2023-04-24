@@ -16,3 +16,5 @@ DEADBEEF #j
 DEADBEEF
 test /#j\ test
 ABCEDF
+#j
+1
