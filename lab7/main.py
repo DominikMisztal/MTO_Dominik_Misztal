@@ -5,8 +5,18 @@ import sys
 def transform(numberString):
     outputText = []
     for x in numberString:
-        if x >= 'a' and x <= 'f':
-            outputText.append(x+6)
+        if x == 'a':
+            outputText.append('g')
+        elif x == 'b':
+            outputText.append('h')
+        elif x == 'c':
+            outputText.append('i')
+        elif x == 'd':
+            outputText.append('j')
+        elif x == 'e':
+            outputText.append('k')
+        elif x == 'f':
+            outputText.append('l')
         else:
             outputText.append(x)
     out = ''.join(str(e) for e in outputText)
