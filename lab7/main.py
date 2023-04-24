@@ -28,7 +28,7 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'j':
                 valueHex = int(param, 16)
-                string = str(hex(valueHex))
+                string = str(hex(valueHex))[2:]
                 output = transform(string)
                 print(output,end="")
                 shouldDo=False
