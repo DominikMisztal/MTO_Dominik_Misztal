@@ -2,6 +2,15 @@
 
 import sys
 
+def transform(numberString):
+    outputText = []
+    for x in numberString:
+        if x >= 'a' and x <= 'f':
+            outputText.append(x+6)
+        else:
+            outputText.append(x)
+    return str(outputText)
+
 def my_printf(format_string,param):
     shouldDo=True
     for idx in range(0,len(format_string)):
@@ -9,6 +18,7 @@ def my_printf(format_string,param):
             if format_string[idx] == '#' and format_string[idx+1] == 'j':
                 valueHex = int(param, 16)
                 string = str(hex(valueHex))
+                
                 print(string,end="")
                 shouldDo=False
             else:
