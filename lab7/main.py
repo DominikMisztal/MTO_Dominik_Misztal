@@ -22,6 +22,7 @@ def transform(numberString):
     out = ''.join(str(e) for e in outputText)
     return out
 
+
 def my_printf(format_string,param):
     shouldDo=True
     for idx in range(0,len(format_string)):
