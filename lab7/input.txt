@@ -2,3 +2,7 @@
 A2B4
 #j
 123456789
+tekst #j testowy
+ABCD
+dlu#jga liczba
+1234567890ABCDEF
