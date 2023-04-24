@@ -6,3 +6,4 @@ dlu1234567890ghijklga liczba
 ggh0ij0lk
 1425324413233214
 DEADBEEF jkgjhkkl
+test /ghikjl\ test
