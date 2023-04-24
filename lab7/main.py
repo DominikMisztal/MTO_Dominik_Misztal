@@ -9,7 +9,8 @@ def transform(numberString):
             outputText.append(x+6)
         else:
             outputText.append(x)
-    return str(outputText)
+    out = ''.join(str(e) for e in outputText)
+    return out
 
 def my_printf(format_string,param):
     shouldDo=True
