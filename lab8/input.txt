@@ -1,3 +1,57 @@
+#
+312
+tekst #
+ABC
+kroko#dyl
+BCC
+|#|
+FFF
+||tekst ABC #||
+CBA
+short |#.2j|
+ABC
+short |#.4j|
+12
+short |#.2j|
+A
+short |#.2j|
+F
+|#.1j|
+FFF
+|#j|
+A
+long #.20j
+BEEF
+long #.100j
+1234567890ABCDEF
+long #.20j
+1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF
+long #.5j
+11111111111111111111AAAAAAAAAAA
+long #.50j
+1
+long #.65j
+65
+test #.5y
+1234
+#.534k
+4321
+#1.j
+ABC
+#k
+3124
+#hfghl
+DEE
+test #.5j
+ABCDE
+#.6j
+ABC
+#.4j
+DEADBEEF
+test inside of some #.5j text 
+12045
+te#.6jkst
+1A2B3C
 #2.4j
 12344
 #4.6j
