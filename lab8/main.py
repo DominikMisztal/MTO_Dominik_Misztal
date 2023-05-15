@@ -18,13 +18,14 @@ def transform(numberString):
             outputText.append('k')
         elif x == 'f':
             outputText.append('l')
+        elif x == '0':
+            outputText.append('o')
         else:
             outputText.append(x)
     out = ''.join(str(e) for e in outputText)
-    return out
+    return out.upper()
 
 def my_printf(format_string,param):
-    #print(format_string)
     shouldDo=True
     done = False
     regex = r'#[.](\d+)?j'
@@ -38,6 +39,8 @@ def my_printf(format_string,param):
 
                 min = result.group(1)
                 fillChar = '0'
+                output = param
+                output = transform(output)
                 if min:
                     minInt = int(min)
                     output = output.rjust(minInt, fillChar) 
