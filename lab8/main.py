@@ -44,12 +44,14 @@ def my_printf(format_string,param):
                 if min:
                     minInt = int(min)
                     output = output.rjust(minInt, fillChar) 
-                print(param,end="")
+                print(output,end="")
+                done = True
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
         else:
-            shouldDo=True
+            if format_string[idx] == 'j':
+                shouldDo=True
     print("")
 
 data=sys.stdin.readlines()
