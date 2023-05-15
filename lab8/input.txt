@@ -1,2 +1,12 @@
-test 1 #.5j
-1AB
+short |#.2j|
+ABC
+short |#.4j|
+12
+short |#.2j|
+A
+short |#.2j|
+F
+|#.1j|
+FFF
+|#j|
+A
