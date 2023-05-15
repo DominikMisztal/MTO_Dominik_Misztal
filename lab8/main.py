@@ -16,7 +16,11 @@ def my_printf(format_string,param):
                     print(format_string[idx],end="")
                     continue
 
-                
+                min = result.group(1)
+                fillChar = '0'
+                if min:
+                    minInt = int(min)
+                    output = output.rjust(minInt, fillChar) 
                 print(param,end="")
                 shouldDo=False
             else:
