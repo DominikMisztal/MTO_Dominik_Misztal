@@ -23,7 +23,7 @@ def transform(numberString):
         else:
             outputText.append(x)
     out = ''.join(str(e) for e in outputText)
-    return out.upper()
+    return out.lower()
 
 def my_printf(format_string,param):
     shouldDo=True
@@ -40,10 +40,10 @@ def my_printf(format_string,param):
                 min = result.group(1)
                 fillChar = '0'
                 output = param
-                output = transform(output)
                 if min:
                     minInt = int(min)
                     output = output.rjust(minInt, fillChar) 
+                output = transform(output)
                 print(output,end="")
                 done = True
                 shouldDo=False

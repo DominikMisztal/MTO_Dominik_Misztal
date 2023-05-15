@@ -68,7 +68,7 @@ endef
 	$(call perform_test,short,Short)
 	$(call perform_test,long,Long)
 	$(call perform_test,bad,Bad)
-	$(call perform_test,normal,Normal)
+	$(call perform_test,badArg,BadArg)
 
 	$(call restore_data)
 
@@ -82,6 +82,7 @@ generate:
 	$(call generate_answers,long)
 	$(call generate_answers,bad)
 	$(call generate_answers,normal)
+	$(call generate_answers,badArg)
 
 	$(call restore_data)
 
