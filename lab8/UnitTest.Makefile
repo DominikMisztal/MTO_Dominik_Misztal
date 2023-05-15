@@ -68,6 +68,7 @@ endef
 	$(call perform_test,short,Short)
 	$(call perform_test,long,Long)
 	$(call perform_test,bad,Bad)
+	$(call perform_test,normal,Normal)
 	$(call perform_test,badArg,BadArg)
 
 	$(call restore_data)
@@ -95,3 +96,4 @@ merge:
 	$(call merge_test,long)
 	$(call merge_test,bad)
 	$(call merge_test,normal)
+	$(call merge_test,badArg)

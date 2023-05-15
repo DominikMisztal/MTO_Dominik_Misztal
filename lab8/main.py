@@ -28,12 +28,20 @@ def transform(numberString):
 def my_printf(format_string,param):
     shouldDo=True
     done = False
-    regex = r'#[.]?(\d+)?j'
+    regex = r'#[.]+?(\d+)?j'
+    regex2 = r'#j'
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and done == False:
                 result = re.search(regex, format_string[idx:])
                 if not result:
+                    result = re.search(regex2, format_string[idx:])
+                    if result:
+                        output = transform(param)
+                        print(output,end="")
+                        done = True
+                        shouldDo = False
+                        continue
                     print(format_string[idx],end="")
                     continue
 

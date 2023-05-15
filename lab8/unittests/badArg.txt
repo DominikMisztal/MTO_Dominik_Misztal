@@ -1,2 +1,10 @@
 #2.4j
 12344
+#4.6j
+31243
+#10.j
+ABC
+#..jkgjhkkl
+CBA
+#10j
+FFFF

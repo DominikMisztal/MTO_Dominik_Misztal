@@ -1,5 +1,5 @@
-test GHIJK
-000GHI
-JKGJHKKL
-test inside of some 12O45 text
-te1G2H3Ikst
+test ghijk
+oooghi
+jkgjhkkl
+test inside of some 12o45 text
+te1g2h3ikst
