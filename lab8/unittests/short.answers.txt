@@ -1,6 +1,6 @@
-short |GHI|
-short |0012|
-short |0G|
-short |0L|
-|LLL|
-|G|
+short |ghi|
+short |oo12|
+short |og|
+short |ol|
+|lll|
+|g|
