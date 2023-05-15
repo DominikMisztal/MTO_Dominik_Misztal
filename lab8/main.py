@@ -1,14 +1,22 @@
 #!/usr/bin/env python3
 
 import sys
+import re
 
 def my_printf(format_string,param):
     #print(format_string)
     shouldDo=True
+    done = False
     regex = r'#[.](\d+)?j'
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
+            if format_string[idx] == '#' and done == False:
+                result = re.search(regex, format_string[idx:])
+                if not result:
+                    print(format_string[idx],end="")
+                    continue
+
+                
                 print(param,end="")
                 shouldDo=False
             else:
