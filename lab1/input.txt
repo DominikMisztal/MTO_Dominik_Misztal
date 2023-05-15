@@ -1,20 +1,80 @@
-totafsdfsf #k fdsfsdf
+totafsdfsf # fdsfsdf
 tEsT
-tekst testowy malymi literami #k
+tekst testowy malymi literami #
 aligator
-tekst testowy duzymi literami #k
+tekst testowy duzymi literami #
 ALIGATOR
-tekst testowy mieszanymi literami #k
+tekst testowy mieszanymi literami #
 AlIgAtOr
-tekst testowy mieszanymi literami #k
+tekst testowy mieszanymi literami #
 aLiGaToR 
-Ala ma #k a kot ma ale
+Ala ma # a kot ma ale
 kota
-#k
+#
 jedno-SLOWO
-wewnatrz tekstu te#kst
+wewnatrz tekstu te#st
 -abeCADlo-
-pies #k
+pies #
 kOt
+kot #
+PiEs
+totafsdfsf #k fdsfsdf
+t
+tekst testowy malymi literami #k
+a
+tekst testowy duzymi literami #k
+A
+tekst testowy mieszanymi literami #k
+A
+tekst testowy mieszanymi literami #k
+a
+Ala ma #k a kot ma ale
+k
+#k
+j
+wewnatrz tekstu te#kst
+-
+pies #k
+k
 kot #k
+P
+totafsdfsf #k fdsfsdf
+tEsTtEsTtEsTtEsTtEsTtEsTtEsT
+tekst testowy malymi literami #k
+aligatoraligatoraligatoraligatoraligatoraligator
+tekst testowy duzymi literami #k
+ALIGATORALIGATORALIGATORALIGATORALIGATORALIGATOR
+tekst testowy mieszanymi literami #k
+AlIgAtOrAlIgAtOrAlIgAtOrAlIgAtOrAlIgAtOr
+tekst testowy mieszanymi literami #k
+aLiGaToRaLiGaToRaLiGaToRaLiGaToRaLiGaToR
+Ala ma #k a kot ma ale
+kotakotakotakotakotakota
+#k
+jedno-SLOWOjedno-SLOWOjedno-SLOWOjedno-SLOWOjedno-SLOWOjedno-SLOWO
+wewnatrz tekstu te#kst
+-abeCADlo--abeCADlo--abeCADlo--abeCADlo--abeCADlo-
+pies #k
+kOtkOtkOtkOtkOtkOt
+kot #k
+PiEsPiEsPiEsPiEsPiEsPiEs
+totafsdfsf #l fdsfsdf
+tEsT
+tekst testowy malymi literami #l
+aligator
+tekst testowy duzymi literami #l
+ALIGATOR
+tekst testowy mieszanymi literami #l
+AlIgAtOr
+tekst testowy mieszanymi literami #l
+aLiGaToR 
+Ala ma #l a kot ma ale
+kota
+#l
+jedno-SLOWO
+wewnatrz tekstu te#lst
+-abeCADlo-
+pies #l
+kOt
+kot #l
 PiEs

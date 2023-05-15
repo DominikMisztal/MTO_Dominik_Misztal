@@ -1,0 +1,20 @@
+5 liter #.5k
+a
+wielsza dlugosc niz dlugosc stringu #.222k
+l
+lrotsza dlugosc niz dlugosc stringu #.2k
+d
+telst mieszany #.10k
+a
+#.10k
+a
+pusty #.0k|
+t
+pelny #.6k|
+d
+#.10k
+l
+#.4k
+a
+to jest telst testowy do #.10k
+t

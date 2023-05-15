@@ -1,0 +1,10 @@
+5 liter A
+wielsza dlugosc niz dlugosc stringu L
+lrotsza dlugosc niz dlugosc stringu D
+telst mieszany A
+A
+pusty |
+pelny D|
+L
+A
+to jest telst testowy do T

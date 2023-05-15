@@ -1,10 +1,40 @@
-totafsdfsf TeSt fdsfsdf
-tekst testowy malymi literami ALIGATOR
-tekst testowy duzymi literami aligator
-tekst testowy mieszanymi literami aLiGaToR
-tekst testowy mieszanymi literami AlIgAtOr
-Ala ma KOTA a kot ma ale
-JEDNO-slowo
-wewnatrz tekstu te-ABEcadLO-st
-pies KoT
-kot pIeS
+totafsdfsf # fdsfsdf
+tekst testowy malymi literami #
+tekst testowy duzymi literami #
+tekst testowy mieszanymi literami #
+tekst testowy mieszanymi literami #
+Ala ma # a kot ma ale
+#
+wewnatrz tekstu te#st
+pies #
+kot #
+totafsdfsf T fdsfsdf
+tekst testowy malymi literami A
+tekst testowy duzymi literami a
+tekst testowy mieszanymi literami a
+tekst testowy mieszanymi literami A
+Ala ma K a kot ma ale
+J
+wewnatrz tekstu te-st
+pies K
+kot p
+totafsdfsf TeStTeStTeStTeStTeStTeStTeSt fdsfsdf
+tekst testowy malymi literami ALIGATORALIGATORALIGATORALIGATORALIGATORALIGATOR
+tekst testowy duzymi literami aligatoraligatoraligatoraligatoraligatoraligator
+tekst testowy mieszanymi literami aLiGaToRaLiGaToRaLiGaToRaLiGaToRaLiGaToR
+tekst testowy mieszanymi literami AlIgAtOrAlIgAtOrAlIgAtOrAlIgAtOrAlIgAtOr
+Ala ma KOTAKOTAKOTAKOTAKOTAKOTA a kot ma ale
+JEDNO-slowoJEDNO-slowoJEDNO-slowoJEDNO-slowoJEDNO-slowoJEDNO-slowo
+wewnatrz tekstu te-ABEcadLO--ABEcadLO--ABEcadLO--ABEcadLO--ABEcadLO-st
+pies KoTKoTKoTKoTKoTKoT
+kot pIeSpIeSpIeSpIeSpIeSpIeS
+totafsdfsf #l fdsfsdf
+tekst testowy malymi literami #l
+tekst testowy duzymi literami #l
+tekst testowy mieszanymi literami #l
+tekst testowy mieszanymi literami #l
+Ala ma #l a kot ma ale
+#l
+wewnatrz tekstu te#lst
+pies #l
+kot #l

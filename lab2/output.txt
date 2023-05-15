@@ -1,10 +1,40 @@
+5 liter #.5
+wielsza dlugosc niz dlugosc stringu #.222
+lrotsza dlugosc niz dlugosc stringu #.2
+telst mieszany #.10
+#.10
+pusty #.0|
+pelny #.6|
+#.10
+#.4
+to jest telst testowy do #.10
+5 liter A
+wielsza dlugosc niz dlugosc stringu L
+lrotsza dlugosc niz dlugosc stringu D
+telst mieszany A
+A
+pusty |
+pelny D|
+L
+A
+to jest telst testowy do T
 5 liter ABECA
-wieksza dlugosc niz dlugosc stringu KROTKI
-krotsza dlugosc niz dlugosc stringu DL
-tekst mieszany AlibAbA
+wielsza dlugosc niz dlugosc stringu LROTLILROTLILROTLILROTLI
+lrotsza dlugosc niz dlugosc stringu DL
+telst mieszany AlibAbAAli
 AaAaAAaaAa
 pusty |
 pelny DWANAS|
-kROKODYL
+LROLODYLLR
 ALIg
-to jest tekst testowy do TEstoWAnia
+to jest telst testowy do TEstoWAnia
+5 liter #.5l
+wielsza dlugosc niz dlugosc stringu #.222l
+lrotsza dlugosc niz dlugosc stringu #.2l
+telst mieszany #.10l
+#.10l
+pusty #.0l|
+pelny #.6l|
+#.10l
+#.4l
+to jest telst testowy do #.10l

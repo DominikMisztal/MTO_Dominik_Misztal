@@ -1,0 +1,10 @@
+5 liter #.5l
+wielsza dlugosc niz dlugosc stringu #.222l
+lrotsza dlugosc niz dlugosc stringu #.2l
+telst mieszany #.10l
+#.10l
+pusty #.0l|
+pelny #.6l|
+#.10l
+#.4l
+to jest telst testowy do #.10l
