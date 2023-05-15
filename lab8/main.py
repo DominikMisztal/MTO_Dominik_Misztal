@@ -6,17 +6,17 @@ import re
 def transform(numberString):
     outputText = []
     for x in numberString:
-        if x == 'a':
+        if x == 'a' or x == 'A':
             outputText.append('g')
-        elif x == 'b':
+        elif x == 'B' or x == 'b':
             outputText.append('h')
-        elif x == 'c':
+        elif x == 'C' or x == 'c':
             outputText.append('i')
-        elif x == 'd':
+        elif x == 'D' or x == 'd':
             outputText.append('j')
-        elif x == 'e':
+        elif x == 'E' or x == 'e':
             outputText.append('k')
-        elif x == 'f':
+        elif x == 'F' or x == 'f':
             outputText.append('l')
         elif x == '0':
             outputText.append('o')

@@ -1,6 +1,6 @@
-short |ABC|
+short |GHI|
 short |0012|
-short |0A|
-short |0F|
-|FFF|
-|A|
+short |0G|
+short |0L|
+|LLL|
+|G|
