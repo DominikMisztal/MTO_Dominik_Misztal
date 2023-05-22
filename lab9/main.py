@@ -67,6 +67,7 @@ def my_printf(format_string,param):
     done = False
     regex = r'#[.]+?(\d+)?h'
     regex2 = r'#j'
+    floatNum = float(param)
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and done == False:
@@ -82,12 +83,10 @@ def my_printf(format_string,param):
                     print(format_string[idx],end="")
                     continue
 
-                min = result.group(1)
-                fillChar = '0'
-                output = param
-                if min:
-                    minInt = int(min)
-                    output = output.rjust(minInt, fillChar) 
+                precision = result.group(1)
+                if precision:
+                    precisionInt = int(precision)
+                    output = f'{floatNum:.{precisionInt}f}'
                 output = transform(output)
                 print(output,end="")
                 done = True
