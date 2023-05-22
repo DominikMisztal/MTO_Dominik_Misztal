@@ -68,7 +68,6 @@ def my_printf(format_string,param):
     shouldDo=True
     done = False
     regex = r'#[.]+?(\d+)?h'
-    regex2 = r'#h'
     floatNum = float(param)
     for idx in range(0,len(format_string)):
         if shouldDo:
@@ -89,7 +88,7 @@ def my_printf(format_string,param):
             else:
                 print(format_string[idx],end="")
         else:
-            if format_string[idx] == 'j':
+            if format_string[idx] == 'h':
                 shouldDo=True
     print("")
 
