@@ -3,6 +3,45 @@
 import sys
 import re
 
+def transform(numberString):
+    outputText = []
+    mode = 1;
+    for x in numberString:
+        if x == '.':
+            mode = 2;
+        if x == '0':
+            if mode == 1:
+                outputText.append('a')
+            else:
+                outputText.append((0+5)%10)
+        elif x == '1':
+            if mode == 1:
+                outputText.append('b')
+            else:
+                outputText.append((1+5)%10)
+        elif x == '2':
+            if mode == 1:
+                outputText.append('c')
+            else:
+                outputText.append((2+5)%10)
+        elif x == '2':
+            if mode == 1:
+                outputText.append('c')
+            else:
+                outputText.append((2+5)%10)
+        elif x == '2':
+            if mode == 1:
+                outputText.append('c')
+            else:
+                outputText.append((2+5)%10)
+        elif x == '2':
+            if mode == 1:
+                outputText.append('c')
+            else:
+                outputText.append((2+5)%10)
+    out = ''.join(str(e) for e in outputText)
+    return out.lower()
+
 def my_printf(format_string,param):
     shouldDo=True
     done = False
