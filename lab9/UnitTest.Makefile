@@ -90,7 +90,7 @@ merge:
 	-rm ./answers.txt 2>/dev/null
 
 	$(call merge_test,nospecifier)
-	$(call merge_test,shorfloatt)
+	$(call merge_test,floatShort)
 	$(call merge_test,floatLong)
 	$(call merge_test,floatShort)
 	$(call merge_test,wrongParam)
