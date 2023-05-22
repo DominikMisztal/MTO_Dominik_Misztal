@@ -8,6 +8,7 @@ def transform(numberString):
     mode = 1;
     for x in numberString:
         if x == '.':
+            outputText.append('.')
             mode = 2;
         if x == '0':
             if mode == 1:
