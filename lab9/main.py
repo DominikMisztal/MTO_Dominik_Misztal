@@ -24,21 +24,41 @@ def transform(numberString):
                 outputText.append('c')
             else:
                 outputText.append((2+5)%10)
-        elif x == '2':
+        elif x == '3':
             if mode == 1:
-                outputText.append('c')
+                outputText.append('d')
             else:
-                outputText.append((2+5)%10)
-        elif x == '2':
+                outputText.append((3+5)%10)
+        elif x == '4':
             if mode == 1:
-                outputText.append('c')
+                outputText.append('e')
             else:
-                outputText.append((2+5)%10)
-        elif x == '2':
+                outputText.append((4+5)%10)
+        elif x == '5':
             if mode == 1:
-                outputText.append('c')
+                outputText.append('f')
             else:
-                outputText.append((2+5)%10)
+                outputText.append((5+5)%10)
+        elif x == '6':
+            if mode == 1:
+                outputText.append('g')
+            else:
+                outputText.append((6+5)%10)
+        elif x == '7':
+            if mode == 1:
+                outputText.append('h')
+            else:
+                outputText.append((7+5)%10)
+        elif x == '8':
+            if mode == 1:
+                outputText.append('i')
+            else:
+                outputText.append((8+5)%10)
+        elif x == '9':
+            if mode == 1:
+                outputText.append('j')
+            else:
+                outputText.append((9+5)%10)
     out = ''.join(str(e) for e in outputText)
     return out.lower()
 
