@@ -5,11 +5,11 @@ import re
 
 def transform(numberString, precision):
     outputText = []
-    substring = 's'
+    
     for x in range(len(numberString)):
         if numberString[x] == '.':
             outputText.append('.')
-            substring = numberString[(x+1):]
+            substring = outputText[x:]
             break;
         if numberString[x] == '0':
             outputText.append('a')
@@ -36,7 +36,7 @@ def transform(numberString, precision):
         for x in range(precision):
             num = int(substring[x])
             if x == precision-1:
-                if int(substring[x+1])>= 5:
+                if int(substring[x+1] >= 5):
                     outputText.append(str((num+1+5)%10))
                 else:
                     outputText.append(str((num+5)%10))
@@ -47,7 +47,7 @@ def transform(numberString, precision):
             num = int(substring[x])
             outputText.append(str((num+5)%10))
     else:
-        for x in range(len(substring)):
+        for x in range(precision):
             num = int(substring[x])
             outputText.append(str((num+5)%10))
         for x in range(precision - len(substring)):
@@ -88,7 +88,5 @@ def my_printf(format_string,param):
                 shouldDo=True
     print("")
 
-data=sys.stdin.readlines()
+my_printf('tsada 42312reqwtsada # feqwtsada # feqw', '0.1')
 
-for i in range(0,len(data),2):
-    my_printf(data[i].rstrip(),data[i+1].rstrip())

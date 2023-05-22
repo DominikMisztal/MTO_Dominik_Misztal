@@ -1,3 +1,25 @@
+tsada # feqw
+10.213
+tsada # feqw
+10.213
+tsada # fdasdqw
+1034295.1
+tsadasfafg# feqw
+123124.423
+tsada ggdgsghgfsftsada # feqwtsada # feqw
+313.1
+tsada 42312reqwtsada # feqwtsada # feqw
+0.1
+tsada 2eqwe#dasd4
+0.312432
+tsad#asdsageqw
+1.243141
+tsad# dasfgdfeqw
+10.0312431
+tsada #dasfgfeqw
+10.0
+tsada # gdfs5y45t
+12.1213
 tsada #.1h feqw
 1.1
 tsada #.2h feqw
@@ -20,3 +42,69 @@ tsada #.5hdasfgfeqw
 0.5
 tsada #.7hh gdfs5y45t
 0.7
+tsada #.10h feqw
+10.2134
+tsada #.20h feqw
+10.2134
+tsada #.30h fdasdqw
+103452412232.13213123424523423
+tsadasfafg#.60h feqw
+123412412342134345314.4234124312431
+tsada ggdgsghgfsftsada #.7h feqwtsada #h feqw
+313132141243254141.11234343123124124124
+tsada 42312reqwtsada #.4h feqwtsada #h feqw
+0.14112435141443533142145125142
+tsada 2eqwe#.3hasd4
+0.3124212435123153442355351
+tsad#.70hjasdsageqw
+1124325523554.2431412412414531
+tsad#.100h dasfgdfeqw
+10.0311
+tsada #.5hdasfgfeqw
+1014235141431531.0124134621243524
+tsada #.7hh gdfs5y45t
+126436523452235.12134134312415325235
+tsada #.1h feqw
+1.1
+tsada #.2h feqw
+2.2
+tsada #.1h fdasdqw
+2.23
+tsadasfafg#.3h feqw
+0.1
+tsada ggdgsghgfsftsada #.7h feqwtsada #h feqw
+0.2
+tsada 42312reqwtsada #.4h feqwtsada #h feqw
+0.1
+tsada 2eqwe#.3hasd4
+9.9
+tsad#.1hjasdsageqw
+0.99
+tsad#.50h dasfgdfeqw
+0.51
+tsada #.5hdasfgfeqw
+0.5
+tsada #.7hh gdfs5y45t
+0.7
+tsada #j feqw
+10.213
+tsada #f feqw
+10.213
+tsada #t fdasdqw
+1034295.1
+tsadasfafg#r feqw
+123124.423
+tsada ggdgsghgfsftsada #x feqwtsada #e feqw
+313.1
+tsada 42312reqwtsada #y feqwtsada #y feqw
+0.1
+tsada 2eqwe#dasd4
+0.312432
+tsad#jjasdsageqw
+1.243141
+tsad#b dasfgdfeqw
+10.0312431
+tsada #mdasfgfeqw
+10.0
+tsada #jh gdfs5y45t
+12.1213
