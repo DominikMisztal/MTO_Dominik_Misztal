@@ -64,10 +64,10 @@ endef
 	
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
-	$(call perform_test,noparam,"No param")
-	$(call perform_test,short,Short)
-	$(call perform_test,long,Long)
-	$(call perform_test,bad,Bad)
+	$(call perform_test,nospecifier,"Tests without specifier")
+	$(call perform_test,float,"Float numbers")
+	$(call perform_test,floatLong,"Long Float numbers")
+	$(call perform_test,floatShort,"Short float numbers")
 
 	$(call restore_data)
 
