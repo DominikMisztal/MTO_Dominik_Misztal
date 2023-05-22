@@ -1,19 +1,43 @@
 #!/usr/bin/env python3
 
 import sys
+import re
 
 def my_printf(format_string,param):
-    #print(format_string)
     shouldDo=True
+    done = False
+    regex = r'#[.]+?(\d+)?h'
+    regex2 = r'#j'
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param,end="")
+            if format_string[idx] == '#' and done == False:
+                result = re.search(regex, format_string[idx:])
+                if not result:
+                    result = re.search(regex2, format_string[idx:])
+                    if result:
+                        output = transform(param)
+                        print(output,end="")
+                        done = True
+                        shouldDo = False
+                        continue
+                    print(format_string[idx],end="")
+                    continue
+
+                min = result.group(1)
+                fillChar = '0'
+                output = param
+                if min:
+                    minInt = int(min)
+                    output = output.rjust(minInt, fillChar) 
+                output = transform(output)
+                print(output,end="")
+                done = True
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
         else:
-            shouldDo=True
+            if format_string[idx] == 'j':
+                shouldDo=True
     print("")
 
 data=sys.stdin.readlines()
