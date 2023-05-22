@@ -76,7 +76,7 @@ def my_printf(format_string,param):
                 if not result:
                     print(format_string[idx],end="")
                     continue
-
+                
                 precision = result.group(1)
                 if precision:
                     precisionInt = int(precision)
