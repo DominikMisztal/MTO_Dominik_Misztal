@@ -4,3 +4,7 @@
 10f7
 45d
 ||2c231 ||
+text 142 dasfd
+text -3d dasfd
+text -106 dasfd
+text -1ed dasfd
