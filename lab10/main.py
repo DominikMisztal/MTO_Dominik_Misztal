@@ -14,16 +14,19 @@ def my_printf(format_string,param):
         return
     
     number = int(param)
-    length = len(param)
-    if(param[0] == '-'):
-        length -= 1
-
-    result = transform(number, length)
-
-    if(result % 2 == 0):
-        out = format_string.replace(matcher.group(), str(result))
+    length = len(str(number))
+    if(number == 0):
+        out = format_string.replace(matcher.group(), '0')
     else:
-        out = format_string.replace(matcher.group(), str(hex(result)).replace('0x', ''))
+        if(param[0] == '-'):
+            length -= 1
+
+        result = transform(number, length)
+
+        if(result % 2 == 0):
+            out = format_string.replace(matcher.group(), str(result))
+        else:
+            out = format_string.replace(matcher.group(), str(hex(result)).replace('0x', ''))
         
     print(out)
     
