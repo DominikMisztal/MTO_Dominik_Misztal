@@ -3,7 +3,13 @@
 import sys
 import re
 
-
+def my_printf(format_string,param):
+    matcher = re.search("#a", format_string)
+    if not matcher:
+        print(format_string)
+        return
+    
+    
 
 data=sys.stdin.readlines()
 
