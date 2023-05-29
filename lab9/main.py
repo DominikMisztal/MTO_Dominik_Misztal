@@ -3,6 +3,9 @@
 import sys
 import re
 
+def transform(number, length):
+    return int((number*2)/length)
+
 
 def my_printf(format_string,param):
     matcher = re.search("#a", format_string)
@@ -12,7 +15,10 @@ def my_printf(format_string,param):
     
     number = int(param)
     length = len(param)
-    
+    result = transform(number, length)
+
+    if(result % 2 == 0):
+        
     
 
 data=sys.stdin.readlines()
