@@ -5,6 +5,14 @@ import re
 
 
 def my_printf(format_string,param):
+    matcher = re.search("#a", format_string)
+    if not matcher:
+        print(format_string)
+        return
+    
+    number = int(param)
+    length = len(param)
+    
     
 
 data=sys.stdin.readlines()
