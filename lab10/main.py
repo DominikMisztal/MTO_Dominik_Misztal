@@ -15,6 +15,9 @@ def my_printf(format_string,param):
     
     number = int(param)
     length = len(param)
+    if(param[0] == '-'):
+        length -= 1
+
     result = transform(number, length)
 
     if(result % 2 == 0):
