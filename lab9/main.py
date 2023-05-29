@@ -59,7 +59,34 @@ def transform(numberString, precision):
 
 
 def my_printf(format_string,param):
-    
+    shouldDo=True
+    done = False
+    regex = r'#[.]+?(\d+)?h'
+    regexFloat = r'(\d+)[.](\d+)'
+    floatResult = re.search(regexFloat, param)
+    if not floatResult:
+        return
+    for idx in range(0,len(format_string)):
+        if shouldDo:
+            if format_string[idx] == '#' and done == False:
+                result = re.search(regex, format_string[idx:])
+                if not result:
+                    print(format_string[idx],end="")
+                    continue
+                
+                precision = result.group(1)
+                if precision:
+                    precisionInt = int(precision)
+                output = transform(param, precisionInt)
+                print(output,end="")
+                done = True
+                shouldDo=False
+            else:
+                print(format_string[idx],end="")
+        else:
+            if format_string[idx] == 'h':
+                shouldDo=True
+    print("")
 
 data=sys.stdin.readlines()
 
