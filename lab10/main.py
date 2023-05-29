@@ -20,7 +20,7 @@ def my_printf(format_string,param):
     if(result % 2 == 0):
         out = format_string.replace(matcher.group(), str(result))
     else:
-        out = format_string.replace(matcher.group(), str(hex(result))[2:])
+        out = format_string.replace(matcher.group(), str(hex(result)).replace('0x', ''))
         
     print(out)
     
