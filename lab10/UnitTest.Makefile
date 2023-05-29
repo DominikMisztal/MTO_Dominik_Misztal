@@ -64,11 +64,12 @@ endef
 	
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
-	$(call perform_test,nospecifier,"Tests without specifier")
-	$(call perform_test,float,"Float numbers")
-	$(call perform_test,floatLong,"Long Float numbers")
-	$(call perform_test,floatShort,"Short float numbers")
-	$(call perform_test,wrongParam,"Wrong parameter")
+	$(call perform_test,noParam,"Tests without specifier")
+	$(call perform_test,badParam,"Tests with wrong specifier")
+	$(call perform_test,positive,"Positive numbers")
+	$(call perform_test,negative,"Negative numbers")
+	$(call perform_test,shortNumber,"Short numbers")
+	$(call perform_test,longNumber,"Long numbers")
 
 	$(call restore_data)
 
@@ -76,12 +77,13 @@ generate:
 	$(call backup_data)
 
 	# generate_output,INPUT_FILE_NAME_WOUT_EXTENSION
-	
-	$(call generate_answers,nospecifier)
-	$(call generate_answers,float)
-	$(call generate_answers,floatLong)
-	$(call generate_answers,floatShort)
-	$(call generate_answers,wrongParam)
+
+	$(call generate_answers,noParam)
+	$(call generate_answers,badParam)
+	$(call generate_answers,positive)
+	$(call generate_answers,negative)
+	$(call generate_answers,shortNumber)
+	$(call generate_answers,longNumber)
 
 	$(call restore_data)
 
@@ -89,8 +91,9 @@ merge:
 	-rm ./input.txt 2>/dev/null
 	-rm ./answers.txt 2>/dev/null
 
-	$(call merge_test,nospecifier)
-	$(call merge_test,floatShort)
-	$(call merge_test,floatLong)
-	$(call merge_test,floatShort)
-	$(call merge_test,wrongParam)
+	$(call merge_test,noParam)
+	$(call merge_test,badParam)
+	$(call merge_test,positive)
+	$(call merge_test,negative)
+	$(call merge_test,shortNumber)
+	$(call merge_test,longNumber)
