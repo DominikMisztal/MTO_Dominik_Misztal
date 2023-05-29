@@ -13,6 +13,17 @@ def my_printf(format_string,param):
         print(format_string)
         return
     
+    number = int(param)
+    length = len(param)
+    result = transform(number, length)
+
+    if(result % 2 == 0):
+        format_string.replace(matcher, str(result))
+    else:
+        format_string.replace(matcher, str(hex(result)))
+        
+    print(format_string)
+    
     
 
 data=sys.stdin.readlines()
