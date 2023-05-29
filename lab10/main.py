@@ -16,11 +16,11 @@ def my_printf(format_string,param):
     number = int(param)
     length = len(param)
     result = transform(number, length)
-    
+
     if(result % 2 == 0):
         out = format_string.replace(matcher.group(), str(result))
     else:
-        out = format_string.replace(matcher.group(), str(hex(result)))
+        out = format_string.replace(matcher.group(), str(hex(result))[2:])
         
     print(out)
     
