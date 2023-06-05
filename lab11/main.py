@@ -3,8 +3,13 @@
 import sys
 import re
 
-def transform(number, length):
-    return int((number*2)/length)
+def transform(number):
+    out = [] 
+    length = len(number)
+    i = -1
+    for x in range(length):
+        
+    return output
 
 
 def my_printf(format_string,param):
@@ -13,8 +18,9 @@ def my_printf(format_string,param):
         print(format_string)
         return
     
-    number = str(int(param))
-    
+    number = bin(int(param))[2:]
+    output = transform(number)
+
         
     print(out)
     
