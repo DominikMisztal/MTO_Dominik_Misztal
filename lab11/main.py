@@ -16,7 +16,7 @@ def transform(number):
             out.append('0')
         counter += 1
     output = ''.join(str(x) for x in out)
-    return output
+    return output[::-1]
 
 
 def my_printf(format_string,param):
