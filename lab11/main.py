@@ -11,7 +11,7 @@ def transform(number):
     counter = 0;
     for x in number:
         if x == '1':
-            out.append(translate_table[counter])
+            out.append(translate_table[counter%10])
         else:
             out.append('0')
         counter += 1
