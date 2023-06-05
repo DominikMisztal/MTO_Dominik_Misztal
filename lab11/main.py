@@ -26,9 +26,10 @@ def my_printf(format_string,param):
         return
     
     number = bin(int(param))[2:]
-    out = transform(number)
+    output = transform(number)
 
-        
+    out = format_string.replace(matcher.group(), output)
+
     print(out)
     
     
