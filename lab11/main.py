@@ -8,25 +8,13 @@ def transform(number, length):
 
 
 def my_printf(format_string,param):
-    matcher = re.search("#a", format_string)
+    matcher = re.search("#b", format_string)
     if not matcher:
         print(format_string)
         return
     
-    number = int(param)
-    length = len(str(number))
-    if(number == 0):
-        out = format_string.replace(matcher.group(), '0')
-    else:
-        if(param[0] == '-'):
-            length -= 1
-
-        result = transform(number, length)
-
-        if(result % 2 == 0):
-            out = format_string.replace(matcher.group(), str(result))
-        else:
-            out = format_string.replace(matcher.group(), str(hex(result)).replace('0x', ''))
+    number = str(int(param))
+    
         
     print(out)
     
