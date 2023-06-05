@@ -3,12 +3,19 @@
 import sys
 import re
 
+translate_table = ['a','b','c','d','e','f','g','h','i','j']
+
 def transform(number):
     out = [] 
-    length = len(number)
-    i = -1
-    for x in range(length):
-        
+    number = number[::-1]
+    counter = 0;
+    for x in number:
+        if x == '1':
+            out.append(translate_table[counter])
+        else:
+            out.append('0')
+        counter += 1
+    output = ''.join(str(x) for x in out)
     return output
 
 
