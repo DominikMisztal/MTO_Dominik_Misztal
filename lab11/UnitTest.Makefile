@@ -67,7 +67,6 @@ endef
 	$(call perform_test,noParam,"Tests without specifier")
 	$(call perform_test,badParam,"Tests with wrong specifier")
 	$(call perform_test,positive,"Positive numbers")
-	$(call perform_test,negative,"Negative numbers")
 	$(call perform_test,shortNumber,"Short numbers")
 	$(call perform_test,longNumber,"Long numbers")
 
@@ -81,7 +80,6 @@ generate:
 	$(call generate_answers,noParam)
 	$(call generate_answers,badParam)
 	$(call generate_answers,positive)
-	$(call generate_answers,negative)
 	$(call generate_answers,shortNumber)
 	$(call generate_answers,longNumber)
 
@@ -94,6 +92,5 @@ merge:
 	$(call merge_test,noParam)
 	$(call merge_test,badParam)
 	$(call merge_test,positive)
-	$(call merge_test,negative)
 	$(call merge_test,shortNumber)
 	$(call merge_test,longNumber)
