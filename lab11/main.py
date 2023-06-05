@@ -26,7 +26,7 @@ def my_printf(format_string,param):
         return
     
     number = bin(int(param))[2:]
-    output = transform(number)
+    out = transform(number)
 
         
     print(out)
