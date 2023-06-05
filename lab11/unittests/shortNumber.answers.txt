@@ -1,11 +1,11 @@
-a
-f0dc0a
-gf000ba
-c0a
-dc00
-0
-0
-a
-d0b0
+312 a 45
+|f0dc0a|
+/gf000ba\
+ test c0a test
+abc dc00 abc
+0 eweas
+dsadasdasfdsaffasd 0
+|||||a
+/\/\/\/\d0b0 32
 i00fed000
 gfed0ba
